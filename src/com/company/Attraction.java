@@ -8,6 +8,15 @@ public class Attraction {
         this.name = name;
         this.typeOfPark = typeOfPark;}
 
+
+    public void getDetails() {
+        System.out.println("Name: " + name + ". Type: " + typeOfPark);
+    }
+
+    public String getName() {
+        return name;
+    }
+
     }
 
 

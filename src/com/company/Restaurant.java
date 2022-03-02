@@ -17,6 +17,11 @@ public class Restaurant extends Buildings {
     public int getRating() {
         return rating;
     }
+
+    public void getDetails() {
+        System.out.println("Name: " +getBldgName() + ". Rating: " + rating + ". Type of Food: " + typeOfFood + ". Description: "+
+                getDescription());
+    }
 }
 
 

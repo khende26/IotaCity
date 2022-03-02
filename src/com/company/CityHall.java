@@ -11,4 +11,10 @@ public class CityHall extends Buildings {
         return forum;
 
     }
+
+    public void getDetails() {
+        System.out.println("Name: " + getBldgName() + ". Description: " + getDescription() + ". Number of Stories:" + getNoOfStories()
+        + "\n Forum in Session? " + isForum());
+    }
+
 }
