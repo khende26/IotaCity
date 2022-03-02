@@ -25,6 +25,8 @@ public class Main {
         Person person2 = new Person("City Clerk", "Bill Albertson");
         Person person3 = new Person("Sheriff", "Dennis Murray");
         Person person4 = new Person("Head Coach", "Vince Mariucci");
+        Person person5 = new Person("Assistant Coach", "Braden Lyford");
+        Person person6 = new Person("Assistant Coach", "Erik Kiledal");
         Map newMap = new Map();
         Scanner scanner = new Scanner(System.in);
         System.out.println("Welcome to Iota City");
@@ -87,6 +89,8 @@ public class Main {
                 person2.getDetails();
                 person3.getDetails();
                 person4.getDetails();
+                person5.getDetails();
+                person6.getDetails();
                 keepAsking = true;
             } else if (userInput == 5) {
                 newMap.buildMap();
